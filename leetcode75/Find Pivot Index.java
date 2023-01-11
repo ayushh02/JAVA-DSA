@@ -1,4 +1,4 @@
-Q. Find Pivot Index
+/*Q. Find Pivot Index
    Given an array of integers nums, calculate the pivot index of this array.
 
 The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
@@ -31,7 +31,7 @@ Left sum = 0 (no elements to the left of index 0)
 Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 
-CODE:
+CODE:*/
 
 class Solution {
     public int pivotIndex(int[] nums) {
