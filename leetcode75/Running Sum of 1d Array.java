@@ -1,4 +1,4 @@
-Q. Running Sum of 1d Array
+/*Q. Running Sum of 1d Array
    Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
    Return the running sum of nums.
@@ -9,7 +9,7 @@ Output: [1,3,6,10]
 Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
 
-Code:
+Code:*/
     class Solution {
     public int[] runningSum(int[] nums) {
         int rs[]=new int[nums.length];
